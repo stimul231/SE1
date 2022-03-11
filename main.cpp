@@ -2,10 +2,10 @@
 #include <conio.h>
 int main()
 {
-    int a, b;
+    int a, b, c;
     printf("Vvedite 2 chisla");
     scanf("%d%d",&a, &b);
-    printf("%d", a);
-    printf("%d", b);
+    c=a+b;
+    printf("%d", c);
     getch();
 }
