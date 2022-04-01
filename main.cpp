@@ -6,6 +6,7 @@ int main()
     printf("Vvedite 2 chisla");
     scanf("%d%d",&a, &b);
     c=a+b;
-    printf("%d", c);
+    v=a-b;
+    printf("%d, %d", c, v);
     getch();
 }
